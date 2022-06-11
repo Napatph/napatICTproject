@@ -23,7 +23,18 @@
 <center><body style="background-color:#FDEFDE "  class="content_center col-md-6">
     <body1 style = "position:relative;top:170px;">
 
-
+      <script>
+        function myFunction() {
+          let text;
+          let person = prompt("Please enter your name:", "Harry Potter");
+          if (person == null || person == "") {
+            text = "User cancelled the prompt.";
+          } else {
+            text = "Hello " + person + "! How are you today?";
+          }
+          document.getElementById("demo").innerHTML = text;
+        }
+        </script>
 
 
 <script>
