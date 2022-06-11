@@ -13,6 +13,10 @@
       font-size: 17px; 
       font-family: "Courier New", monospace;
     }
+    p2 {
+      font-size: 13px; 
+      font-family: "Courier New", monospace;
+    }
     .content_center {
   display: flex;
   justify-content: center;
@@ -57,12 +61,12 @@
 <script>
   function redirectUser() {
       var code = document.getElementById("code").value;
-      if(code == "1991"){
+      if(code == "1969"){
         window.location.href = "1stpage.html";
       }
       
       else{
-        alert("Nope! it was not the year");
+        alert("Nope! it was not the year\n It was 1969 when humans visit the moon");
       }
     }
   </script>
@@ -74,12 +78,14 @@
 
   Alright, seem like you are ready to check out my journey of<br>
    building this website. However, in order for you to go to the next page, <br>you must know the
-   year when Python(the programming language) was invented :<br><br> 
+   year when humans visit the moon :<br><br> 
   
-  <input type="text" id="code" placeholder="example : 1987" size="30"><br>
+  <input type="text" id="code" placeholder="example : 1965" size="30"><br>
 </p1>
 
-
+<p2>
+  Don't worry if you cannot answer.<br> The answer will show in the alert box.<br><br>
+</p2>
 
   <button type="button" value="Go" onclick="redirectUser();">Submit</button> 
 
