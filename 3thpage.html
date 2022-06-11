@@ -19,11 +19,6 @@
       font-size: 17px; 
       font-family: "Courier New", monospace;
     }
-  
-    p2 {
-      font-size: 13px; 
-      font-family: "Courier New", monospace;
-    }
     .content_center {
   display: flex;
   justify-content: center;
@@ -35,10 +30,14 @@
    
   <body1 style = "position:relative;top:1px;">
 
-    <h1>2</h1>
-    
-    <p style = "text-align: left; display:flex; flex-direction: column; align-items: center">   
-         
+    <h1>3</h1>
+
+    <p style = "text-align: left; display:flex; flex-direction: column; align-items: center">
+
+
+
+
+        
         asdsadasdasdsadsadas<br>
         adsadasdasdsadadsadsadsadsadsadsad<br>
         adssadsadasdsadasdasdsad<br>
@@ -54,47 +53,43 @@
         function redirectUser() {
             var code = document.getElementById("code").value;
             if(code == "HTML"){
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
             else if(code == "html"){
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
 
             else if (code == "CSS") { 
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
             else if (code == "css") { 
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
 
             else if (code == "Javascript") { 
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
             else if (code == "javascript") { 
-              window.location.href = "3thweb.html";
+              window.location.href = "4thweb.html";
             }
 
             else{
-              alert("Well, look like you cannot answer it. \n The programming language that I use are HTML, CSS, and Javascript ");
+              alert("Error: Code not found");
             }
           }
         </script>
           
-        <p1 style = "text-align: left; display:flex; flex-direction: column; align-items: center">
+          <p1 style = "text-align: left; display:flex; flex-direction: column; align-items: center">
 
-            This question is a little bit harder.<br>
-             The question is what programming languages<br>
-             do I use? (just type 1 language)<br><br>
-        <input type="text" id="code" placeholder="example : Solidity" size="25">
+            Here is the interesting part. <br>In order to go to the next page, <br>you must know the
+             year when Python<br> was invented.:<br><br>
+          <input type="text" id="code" placeholder="example : 1987" size="25"><br>
         </p1>
   
-        <p2>
-          Don't worry if you cannot answer.<br> The answer will show in the alert box.<br><br>
-        </p2>
   
-
-
-        <button type="button" value="Go" onclick="redirectUser();">Submit</button> 
+  
+          <button type="button" value="Go" onclick="redirectUser();">Submit</button> 
+            
 
 
 
